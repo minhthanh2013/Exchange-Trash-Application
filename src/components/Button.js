@@ -1,0 +1,34 @@
+import React from 'react'
+import { StyleSheet } from 'react-native'
+import { Button as PaperButton } from 'react-native-paper'
+import { theme } from '../core/theme'
+import colors from '../assets/colors/colors';
+
+const Button = ({ mode, style, ...props }) => (
+  <PaperButton
+    style={[
+      styles.button,
+      mode === 'outlined' && { backgroundColor: theme.colors.surface, borderWidth: 1},
+      mode === 'contained' && { backgroundColor: colors.green },
+      style,
+    ]}
+    labelStyle={styles.text}
+    mode={mode}
+    {...props}
+  />
+)
+
+const styles = StyleSheet.create({
+  button: {
+    width: '100%',
+    marginVertical: 10,
+    paddingVertical: 2,
+  },
+  text: {
+    fontWeight: 'bold',
+    fontSize: 15,
+    lineHeight: 26,
+  },
+})
+
+export default Button

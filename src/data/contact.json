@@ -1,0 +1,24 @@
+{
+  "name": "Quoc",
+  "username": "minhthanh123",
+  "address": {
+    "country": "Viet Nam",
+    "zipcode": "41428-0189",
+    "geo": {
+      "lat": "-75.8513",
+      "lng": "81.3262"
+    }
+  },
+  "avatar": "https://i.imgur.com/GfkNpVG.jpg",
+  "avatarBackground":
+    "https://i.imgur.com/rXVcgTZ.jpg",
+  "tels": [
+    { "id": 1, "name": "Trash accumulated", "number": "100" },
+    { "id": 2, "name": "Your Points ", "number": "120" }
+  ],
+  "emails": [
+    { "id": 1, "name": "Personal", "email": "minhthanh@mail.com" },
+    
+    { "id": 2, "name": "Work", "email": "minhthanh@mail.com" }
+  ]
+}

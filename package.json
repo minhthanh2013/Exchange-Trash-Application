@@ -1,0 +1,56 @@
+{
+  "name": "Doan",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-native-community/geolocation": "^2.0.2",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/bottom-tabs": "^5.11.2",
+    "@react-navigation/drawer": "^5.11.4",
+    "@react-navigation/native": "^5.8.10",
+    "@react-navigation/stack": "^5.12.8",
+    "firebase": "^8.2.1",
+    "geolib": "^3.3.1",
+    "react": "16.13.1",
+    "react-native": "0.63.4",
+    "react-native-button": "^3.0.1",
+    "react-native-camera": "^3.42.0",
+    "react-native-dynamic-search-bar": "^2.0.0",
+    "react-native-elements": "^3.1.0",
+    "react-native-gesture-handler": "^1.9.0",
+    "react-native-maps": "0.27.1",
+    "react-native-maps-directions": "^1.8.0",
+    "react-native-material-design": "^0.3.7",
+    "react-native-pages": "^0.9.0",
+    "react-native-paper": "^4.5.0",
+    "react-native-permissions": "^2.2.2",
+    "react-native-qrcode-scanner": "^1.5.3",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "^2.16.1",
+    "react-native-status-bar-height": "^2.6.0",
+    "react-native-vector-icons": "^7.1.0",
+    "react-navigation": "^4.4.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.10",
+    "@babel/runtime": "7.12.5",
+    "@react-native-community/eslint-config": "1.1.0",
+    "babel-jest": "25.5.1",
+    "eslint": "6.8.0",
+    "jest": "25.5.4",
+    "metro-react-native-babel-preset": "0.59.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
